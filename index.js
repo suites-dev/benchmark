@@ -17,17 +17,20 @@ const tempDir = path.join(__dirname, 'temp');
     console.log('Expanding into temp directory ' + tempDir);
     await Promise.all([
         ...generateTemp('automock', 'tsc'),
+        ...generateTemp('automock', 'tsc-isolated'),
         ...generateTemp('automock', 'swc'),
         ...generateTemp('nestjs', 'tsc'),
+        ...generateTemp('nestjs', 'tsc-isolated'),
         ...generateTemp('nestjs', 'swc'),
     ]);
 
     console.log(`Benchmarking performance with ${testSuites} suites to compile and run`);
     const results = {
         tsc: { automock: NaN, nestjs: NaN },
+        'tsc-isolated': { automock: NaN, nestjs: NaN },
         swc: { automock: NaN, nestjs: NaN },
     };
-    for (const compiler of ['TSC', 'SWC']) {
+    for (const compiler of ['TSC', 'TSC-Isolated', 'SWC']) {
         for (const technique of ['Automock', 'NestJS']) {
             console.log(`Benchmarking ${compiler} + ${technique}`);
             results[compiler.toLowerCase()][technique.toLocaleLowerCase()] =
