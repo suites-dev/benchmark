@@ -4,7 +4,7 @@ const crypto = require('crypto');
 const childProcess = require('child_process');
 const { rimraf } = require('rimraf');
 
-const testSuites = 1000;
+const testSuites = 2;
 const tempDir = path.join(__dirname, 'temp');
 
 (async () => {
