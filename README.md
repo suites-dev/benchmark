@@ -134,8 +134,8 @@ complexity or better resource optimization.
 ### Visualizations
 
 - **Node v20 Performance Comparison**
-  - <img width="400" src="https://raw.githubusercontent.com/automock/benchmark/master/node20.png" alt="Node20" />
+  - <img width="400" src="https://github.com/automock/benchmark/blob/master/node20.jpg?raw=true" alt="Node20" />
 - **Node v18 Performance Comparison**
-  - <img width="400" src="https://raw.githubusercontent.com/automock/benchmark/master/node18.png" alt="Node18" />
+  - <img width="400" src="https://github.com/automock/benchmark/blob/master/node18.jpg?raw=true" alt="Node18" />
 - **Node v16 Performance Comparison**
-  - <img width="400" src="https://raw.githubusercontent.com/automock/benchmark/master/node16.png" alt="Node16" />
+  - <img width="400" src="https://github.com/automock/benchmark/blob/master/node16.jpg?raw=true" alt="Node16" />
