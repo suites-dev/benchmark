@@ -127,8 +127,8 @@ Benchmarks were conducted on 1000 test suites in Automock and NestJS environment
     showed the most significant difference with a 35.8% increase.
   - This indicates that Automock maintains its efficiency advantage over NestJS even in older Node.js environments.
 
-In summary, across all tested Node.js versions, `automock` consistently outperforms NestJS in terms of speed for all
-compilers. The difference is marked and suggests that `automock` is a more efficient environment, possibly due to lower
+In summary, across all tested Node.js versions, Automock consistently outperforms NestJS in terms of speed for all
+compilers. The difference is marked and suggests that Automock is a more efficient environment, possibly due to lower
 complexity or better resource optimization.
 
 ### Visualizations
