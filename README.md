@@ -133,8 +133,10 @@ complexity or better resource optimization.
 
 ### Visualizations
 
-<img width="750" src="https://github.com/automock/benchmark/blob/master/node20.jpg?raw=true" alt="Node20" />
+<p align="center">
+<img width="700" src="https://github.com/automock/benchmark/blob/master/node20.jpg?raw=true" alt="Node20" />
 <br />
-<img width="750" src="https://github.com/automock/benchmark/blob/master/node18.jpg?raw=true" alt="Node18" />
+<img width="700" src="https://github.com/automock/benchmark/blob/master/node18.jpg?raw=true" alt="Node18" />
 <br />
-<img width="750" src="https://github.com/automock/benchmark/blob/master/node16.jpg?raw=true" alt="Node16" />
+<img width="700" src="https://github.com/automock/benchmark/blob/master/node16.jpg?raw=true" alt="Node16" />
+</p>
