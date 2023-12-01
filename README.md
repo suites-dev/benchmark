@@ -5,6 +5,8 @@
 This document provides a detailed analysis of TypeScript compiler performance across various Node.js versions.
 Benchmarks were conducted on 1000 test suites in Automock and NestJS environments.
 
+**Special thanks to [@soryy708](https://github.com/soryy708) for his contribution1**
+
 ### Testing Environment
 
 - **Machine**: GitHub Native Workflow (Ubuntu Latest)
