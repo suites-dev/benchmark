@@ -44,6 +44,8 @@ const tempDir = path.join(__dirname, 'temp');
                         )
                     )
                 );
+            console.log('Results:');
+            console.table(results);
         }
     }
 
